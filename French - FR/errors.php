@@ -1,83 +1,83 @@
 <?php
 /*
 ------------------
-Language:   English
-Type:       Errors
+Language:   Français 
+Type:       Erreur 
 ------------------
 */
 
 $langerrors = array(
 //ERROR TYPES
-"ERROR"          => "Error",
-"WARNING"        => "Warning",
-"SUCCESS"        => "Success",
+"ERROR"          => "Erreur",
+"WARNING"        => "attention",
+"SUCCESS"        => "succès",
 "INFO"           => "Info",
 
 //BASIC ERRORS
-"ERROR_NOCOMP"               => "You do not have a company. Create one first!",
-"ERROR_NOCOMP2"              => "You do not have a company.",
-"ERROR_NOMONEY"              => "Your company does not have enough money on its payment account!",
-"ERROR_INVALID_NUMBER"       => "Invalid number!",
-"ERROR_INVALID_COMP2"        => "Wait.. what company are you looking for?",
-"ERROR_INVALID_COMP"         => "That company does not exist!",
-"ERROR_INVALID_CITY"         => "Invalid city!",
-"ERROR_INVALID_COUNTRY"      => "Invalid country!",
-"ERROR_INVALID_OBJECT"       => "Invalid object!",
-"ERROR_LEVEL_TOO_LOW"        => "You do not have the required level!",
-"ERROR_SELECTED"             => "Selected.",
-"ERROR_INVALID_MEMBER"       => "Member does not exist!",
-"ERROR_INVALID_REQUEST"      => "Invalid request!",
+"ERROR_NOCOMP"               => "Vous n'avez pas de société. Créez-en une en premier!",
+"ERROR_NOCOMP2"              => "Vous n'avez pas de société..",
+"ERROR_NOMONEY"              => "Votre entreprise n'a pas assez d'argent sur son compte de paiement!",
+"ERROR_INVALID_NUMBER"       => "Numéro invalide!",
+"ERROR_INVALID_COMP2"        => "Patientez .. quelle société cherchez-vous?",
+"ERROR_INVALID_COMP"         => "Cette entreprise n'existe pas!",
+"ERROR_INVALID_CITY"         => "Ville invalide!",
+"ERROR_INVALID_COUNTRY"      => "pays invalide!",
+"ERROR_INVALID_OBJECT"       => "objet invalide!",
+"ERROR_LEVEL_TOO_LOW"        => "Vous n'avez pas le niveau requis!",
+"ERROR_SELECTED"             => "sélectionné.",
+"ERROR_INVALID_MEMBER"       => "Ce membre n'existe pas!",
+"ERROR_INVALID_REQUEST"      => "demande invalide!",
 
 
 //Premium
-"ERROR_PURCHASE_COMPL"           => "Purchase completed.",
-"ERROR_PAY_ID_INVALID"           => "Payment ID invalid.",
-"ERROR_PAYMENT_COMPL"            => "Payment completed.",
-"ERROR_PAYMENT_EXP"              => "Payment expired. Please try again.",
-"ERROR_PAYMENT_CANCELLED"        => "You have cancelled the payment.",
-"ERROR_PAYMENT_NOT_ACCEPTED"     => "Payment not accepted.",
-"ERROR_PREMIUM_BOUGHT"           => "Premium function bought.",
-"ERROR_NOT_ENOUGH_CREDITS"       => "You do not have enough premium credits, buy them first!",
-"ERROR_PREMIUM_REQ"              => "You will need a premium account for this.",
+"ERROR_PURCHASE_COMPL"           => "L' achat est terminé.",
+"ERROR_PAY_ID_INVALID"           => "Identifiant de paiement invalide.",
+"ERROR_PAYMENT_COMPL"            => "payement réussi.",
+"ERROR_PAYMENT_EXP"              => "Le paiement a expiré. Veuillez réessayer.",
+"ERROR_PAYMENT_CANCELLED"        => "Vous avez annulé le paiement.",
+"ERROR_PAYMENT_NOT_ACCEPTED"     => "Paiement non accepté.",
+"ERROR_PREMIUM_BOUGHT"           => "Fonction Premium achetée.",
+"ERROR_NOT_ENOUGH_CREDITS"       => "Vous n'avez pas assez de crédits Premium, achetez-les d'abord!",
+"ERROR_PREMIUM_REQ"              => "Vous aurez besoin d'un compte premium pour cela.",
 
 //Video Reward
-"ERROR_REWARD_CLAIMED"           => "Reward claimed!",
-"ERROR_DAY_LIMIT_REACHED"        => "Daily limit reached!",
+"ERROR_REWARD_CLAIMED"           => "Récompense réclamée!",
+"ERROR_DAY_LIMIT_REACHED"        => "La limite journalière est atteinte!",
 
 //User
 
     //General
-    "ERROR_TUTORIAL_SKIPPED"     => "You have skipped the tutorial.",
+    "ERROR_TUTORIAL_SKIPPED"     => "Vous avez ignoré le tutoriel.",
 
     //Messages
-    "ERROR_MESSAGE_SENT"         => "Message sent.",
-    "ERROR_BLACKLISTED"          => "You have been blacklisted by this member!",
-    "ERROR_MSG_SUBJECT_SHORT"    => "Subject is not long enough!",
-    "ERROR_MSG_CONTENT_SHORT"    => "Content is not long enough!",
-    "ERROR_INVALID_MESSAGE"      => "Message not found!",
-    "ERROR_MSG_NO_SUBJECT"       => "No subject filled!",
-    "ERROR_MSG_NO_RECEIVER"      => "No receiver filled!",
-    "ERROR_MSG_NO_CONTENT"       => "No content filled!",
+    "ERROR_MESSAGE_SENT"         => "Message envoyé.",
+    "ERROR_BLACKLISTED"          => "Ce membre vous a mis sur la liste noire!",
+    "ERROR_MSG_SUBJECT_SHORT"    => "Le sujet n'est pas assez long!",
+    "ERROR_MSG_CONTENT_SHORT"    => "Le contenu n'est pas assez long!",
+    "ERROR_INVALID_MESSAGE"      => "Message introuvable!",
+    "ERROR_MSG_NO_SUBJECT"       => "Aucun sujet renseigné!",
+    "ERROR_MSG_NO_RECEIVER"      => "Aucun destinataire remplie!",
+    "ERROR_MSG_NO_CONTENT"       => "Aucun contenu n'est remplie!",
 
     //Profile
-    "ERROR_CURRENT_PASSWORD"     => "You have to fill in your current password!",
-    "ERROR_NEW_PASSWORD"         => "You have to fill in a new password!",
-    "ERROR_PASSWORD_CHANGED"     => "Password changed!",
-    "ERROR_DATABASE_ERROR"       => "Database error!",
-    "ERROR_PASS_NOT_SAFE"        => "New password is not safe enough! Password should be at least 6 characters and should contain a digit and a capital letter.",
+    "ERROR_CURRENT_PASSWORD"     => "Vous devez entrer votre mot de passe actuel !",
+    "ERROR_NEW_PASSWORD"         => "Vous devez entrer un nouveau mot de passe!",
+    "ERROR_PASSWORD_CHANGED"     => "Le mot de passe est changé!",
+    "ERROR_DATABASE_ERROR"       => "Erreur de la basse de données!",
+    "ERROR_PASS_NOT_SAFE"        => "Le nouveau mot de passe n'est pas assez sûr! Le mot de passe doit comporter au moins 6 caractères et doit contenir un chiffre et une lettre majuscule.",
     "ERROR_PASS_INCORRECT"       => "Current password incorrect!",
-    "ERROR_TIMEZONE_CHANGED"     => "Timezone changed.",
-    "ERROR_INVALID_TIMEZONE"     => "Invalid timezone!",
+    "ERROR_TIMEZONE_CHANGED"     => "Le fuseau horaire a été modifié.",
+    "ERROR_INVALID_TIMEZONE"     => "Fuseau horaire incorrect!",
 
 //Company + Corporation
 
     //General
-    "ERROR_NAME_EXISTS"          => "Name already exists!",
-    "ERROR_NAME_SHORT"           => "Name is too short! Minimum is 6 characters!",
-    "ERROR_NAME_SHORT2"          => "Name is too short! Minimum is 3 characters!",
-    "ERROR_NAME_LONG"            => "Name is too long! Only 18 characters allowed!",
-    "ERROR_NAME_LONG2"           => "Name is too long! Only 13 characters allowed!",
-    "ERROR_NO_WAREHOUSE"         => "You do not have a warehouse! Buy one at the shop first!",
+    "ERROR_NAME_EXISTS"          => "Le nom existe déjà!",
+    "ERROR_NAME_SHORT"           => "Le nom est trop court! Le minimum est de 6 caractères!",
+    "ERROR_NAME_SHORT2"          => "Le nom est trop court! Le minimum est de 3 caractères!",
+    "ERROR_NAME_LONG"            => "Le nom est trop long! Seulement 18 caractères sont autorisés!",
+    "ERROR_NAME_LONG2"           => "Le nom est trop long! Seulement 13 caractères sont autorisés!",
+    "ERROR_NO_WAREHOUSE"         => "Vous n’avez pas d’entrepôt! Achetez-en un au magasin en premier!",
 
 
     //Freights
